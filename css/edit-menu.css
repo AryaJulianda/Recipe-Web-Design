@@ -1,0 +1,221 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 1920px;
+    margin:0 auto;
+}
+
+/* navigation */
+.nav-head {
+    padding:0 90px;
+}
+
+.nav-head .nav-link{
+    margin-top: 40px;
+    margin-right: 87px;
+    color: #2E266F;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav-head .nav-link:hover {
+    text-decoration: underline;
+    color:#2E266F
+}
+
+/* profile box */
+.profile {
+    margin-top: 46px;
+    display: flex;
+    border-left: 7px solid #EFC81A;
+    height:97px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:10px;
+}
+
+.img-circle {
+    margin-right: 38px;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 44px;
+    background: url('../img/Ellipse\ 128.jpg'), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.profile span{
+    align-items: center;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:normal;
+    text-transform: capitalize;
+}
+
+.profile span a {
+    font-weight: 700;
+}
+
+
+/* Add Image */
+.form-add-recipe {
+    margin:150px auto 0;
+    width: 1300px;
+    text-align: center;
+}
+
+.add-image {
+    background:url(../img/Rectangle\ 313.jpg),#F6F5F4;
+    width: 906px;
+    height: 447px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+.add-image a {
+    text-decoration: none;
+    color: #666;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.add-image a:hover {
+    text-decoration: underline;
+}
+
+.add-image button {
+    color:#FFF;
+    width: 426px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #30C0F3;
+}
+
+.add-image button:hover {
+    background-color: #30C0F3;
+    color: #000;
+}
+
+.form-control:focus {
+    border-radius: 6px;
+    border: 1px solid #EFC81A;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+}
+
+#title-form{
+    margin-top:40px ;
+    width: 1300px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #F6F5F4;
+    color: #666;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 20px;
+}
+
+
+#form-ingredients {
+    margin-top: 40px;
+    width: 1300px;
+    height: 380px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #F6F5F4;
+    color: #666;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 20px;
+}
+
+#form-category {
+    width: 243px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #F6F5F4;
+    color: #666;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+#btn-add-recipe {
+    width: 426px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #EFC81A;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin:100px auto;
+}
+
+
+/* Footer */
+footer {
+    background-color:#EFC81A ;
+    padding:247px;
+}
+
+footer h1 {
+    color: #2E266F;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: capitalize;
+    margin-bottom:60px;
+}
+
+footer p {
+    color: #707070;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.nav-footer{
+    background-color: #EFC81A;
+}
+
+.nav-footer .nav-link {
+    color: #707070;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,253 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    width: 1920px;
+    margin:0 auto;
+}
+
+main {
+    margin:0 143px;
+}
+
+/* navigation */
+.nav-head {
+    padding:0 90px;
+}
+
+.nav-head .nav-link{
+    margin-top: 25px;
+    margin-right: 87px;
+    color: #2E266F;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav-head .nav-link:hover {
+    text-decoration: underline;
+    color:#2E266F
+}
+
+/* profile box */
+.profile {
+    margin-top: 28px;
+    display: flex;
+    border-left: 7px solid #EFC81A;
+    height:77px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.img-circle {
+    margin-right: 28px;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 44px;
+    background: url('../img/Ellipse\ 128.jpg'), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.profile span{
+    align-items: center;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:normal;
+    text-transform: capitalize;
+}
+
+.profile span a {
+    font-weight: 700;
+}
+
+/* header */
+header {
+    margin-top:100px;
+}
+
+header .profile {
+    margin-top: 0;
+}
+
+.profile span span {
+    font-weight: 700;
+}
+
+.detail {
+    justify-content: start;
+}
+
+header .stats {
+    margin-top: 24px;
+}
+
+.stats h5 {
+    font-size: 24px;
+    text-align: end;
+    font-weight: 500;
+}
+
+/* option */
+.nav-option {
+    border-bottom:15px solid #EFC81A;
+    margin-top: 50px;
+}
+
+.nav-option .navbar-nav .nav-link {
+        color: #B6B6B6;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 62px; /* 129.167% */
+        text-transform: capitalize;
+        margin: 10px 50px;
+}
+
+.nav-option .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-option .navbar-nav .active {
+    color:#000;
+}
+
+/* recipes */
+.card {
+    border:none;
+    margin-top: 90px;
+}
+
+.card-body {
+    width: 357px;
+}
+
+.card-title {
+    color: #3F3A3A;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.card-text {
+    color: #3F3A3A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 250px;
+}
+
+.recipes .stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #EFC81A;
+}
+
+.stats span{
+    display: inline-block;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.card-btn button{    
+    font-weight: 500;
+    font-size:16px;
+    border-radius: 6px;  
+    color:#fff;
+    padding:10px 20px;
+    margin-top: 30px;
+}
+
+#edit-btn {
+    background-color: #30C0F3;    
+    color: #FFF;
+}
+
+#delete-btn {
+    background-color: #F57E71;
+    color:#FFF;
+}
+
+/* pagination */
+.pagination {
+    justify-content: center; 
+    align-items: center;
+    margin-top: 100px;
+}
+
+.pagination button {
+    height: auto;
+    font-size: 16px;
+    padding: 18px 22px;
+    font-weight: 500;
+    color: #FFF;
+    background-color: #EFC81A;
+}
+
+.pagination button:hover {
+    background-color: #EFC81A;
+}
+
+.pagination span {
+    font-size: 32px;
+    color: #3F3A3A;
+    margin-right: 20px;
+}
+
+/* footer */
+footer {
+    margin-top: 100px;
+    background-color:#EFC81A ;
+    padding:247px;
+}
+
+footer h1 {
+    color: #2E266F;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: capitalize;
+    margin-bottom:60px;
+}
+
+footer p {
+    color: #707070;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.nav-footer{
+    background-color: #EFC81A;
+}
+
+.nav-footer .nav-link {
+    color: #707070;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}

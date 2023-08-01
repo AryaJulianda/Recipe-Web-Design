@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/edit-menu.css">
+    <title>Edit Menu</title>
+</head>
+<body>
+  <!-- Navigation -->
+    <nav class="nav-head navbar navbar-expand">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Add Recipe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Profile</a>
+              </li>
+            </ul>
+            <div class="profile">
+                <div class="img-circle"></div>
+                <span>Profile Name <br><a>Logout</a></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <div class="form-add-recipe">
+        <div class="add-image d-flex">
+            <button href="" class="btn">Change Photo</button>
+        </div>
+    
+        <input type="text" class="form-control" id="title-form" value="Egg Sanwich">
+
+        <textarea class="form-control" id="form-ingredients" placeholder="Ingredients">
+- 2 eggs
+- 2 tbsp mayonnaise
+- 3 slices bread
+- a little butter
+        </textarea>
+
+        <input type="text" class="form-control" id="form-category" placeholder="Category" value="Main Course">    
+
+        <button type="button" class="btn" id="btn-add-recipe">Update</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <h1>Eat, Cook, Repeat</h1>
+        <p>Share your best recipe by uploading here !</p>
+    </footer>
+
+    <nav class="nav-footer navbar navbar-expand-md justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">Product</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">Company</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">Learn more</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">Get in touch</a>
+          </li>
+        </ul>
+      </nav>
+</body>
+</html>
